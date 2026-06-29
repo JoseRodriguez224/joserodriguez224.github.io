@@ -9,7 +9,8 @@ export default function Skills() {
           <h2 className="section__title">Skills & technologies</h2>
           <p className="skills__intro">
             11 years across senior software and full-stack roles — centered on{" "}
-            <strong>C#</strong>, <strong>.NET</strong>, and <strong>Python</strong>.
+            <strong>C#</strong>, <strong>.NET</strong>, <strong>Java</strong>, and{" "}
+            <strong>Python</strong>.
           </p>
         </div>
 

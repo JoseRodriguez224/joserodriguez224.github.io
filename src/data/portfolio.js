@@ -3,18 +3,18 @@ export const portfolio = {
   title: "Senior Software Engineer",
   yearsOfExperience: 11,
   tagline:
-    "Senior engineer who architects scalable systems, leads delivery, and turns complex requirements into production-ready software.",
+    "Senior engineer specializing in C#, Java, .NET, and Python — architecting scalable systems and delivering production-ready software.",
   about: `Senior software engineer with 11 years of experience architecting and shipping
     production systems for enterprise and healthcare clients across California. I specialize
-    in C#, .NET, and Python — leading backend design, full-stack delivery, and technical
-    mentorship while partnering with stakeholders to turn complex requirements into reliable,
-    scalable software.`,
+    in C#, Java, .NET, and Python — leading backend design, API development, full-stack
+    delivery, and technical mentorship while partnering with stakeholders to turn complex
+    requirements into reliable, scalable software.`,
 
   email: "joserodriguezlm2026@outlook.com",
   linkedin: "https://www.linkedin.com/in/jose-rodriguez-246047240",
   github: "https://github.com/joserodriguez224",
 
-  highlightStack: ["C#", ".NET", "Python"],
+  highlightStack: ["C#", ".NET", "Java", "Python"],
 
   skillCategories: [
     {
@@ -39,6 +39,23 @@ export const portfolio = {
       ],
     },
     {
+      title: "Java",
+      description: "Enterprise backend services, APIs, and JVM-based integrations",
+      skills: [
+        "Java 11 / 17",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "REST APIs",
+        "Microservices",
+        "Maven / Gradle",
+        "JUnit",
+        "Hibernate",
+        "Message Queues",
+        "JVM Tuning",
+      ],
+    },
+    {
       title: "Python",
       description: "APIs, automation, and data-driven backend services",
       skills: [
@@ -57,20 +74,16 @@ export const portfolio = {
     },
     {
       title: "Full Stack & Frontend",
-      description: "End-to-end delivery from UI to API — Senior Full Stack Engineer",
+      description: "React and TypeScript for enterprise web applications",
       skills: [
         "React",
-        "JavaScript",
         "TypeScript",
+        "JavaScript",
         "HTML5",
         "CSS3",
-        "Bootstrap",
         "Angular",
-        "Responsive Design",
-        "SPA Architecture",
-        "State Management",
-        "Component Design",
         "REST Integration",
+        "SPA Architecture",
       ],
     },
     {
@@ -136,8 +149,8 @@ export const portfolio = {
       period: "Aug 2022 – Present",
       location: "Oxnard, CA",
       highlights: [
-        "Own end-to-end architecture and delivery of mission-critical platform services in C#, .NET 8, and Python — from system design through production deployment for enterprise client engagements.",
-        "Lead technical direction on distributed backend systems, REST/gRPC APIs, and cloud-hosted microservices on Azure, driving reliability, observability, and clean separation of concerns across the stack.",
+        "Own end-to-end architecture and delivery of mission-critical platform services in C#, .NET 8, Java, and Python — from system design through production deployment for enterprise client engagements.",
+        "Lead technical direction on distributed backend systems across .NET and Java microservices, REST/gRPC APIs, and cloud-hosted services on Azure.",
         "Partner with product owners and client stakeholders to translate complex business requirements into scalable solutions — reducing rework and accelerating time-to-delivery on high-priority initiatives.",
         "Mentor mid-level engineers through design reviews, pair programming, and coding standards — elevating team output, code quality, and consistency across multiple concurrent projects.",
         "Champion performance optimization and production hardening — identifying bottlenecks in SQL Server queries, API latency, and service dependencies to improve system stability under load.",
@@ -149,7 +162,7 @@ export const portfolio = {
       period: "Oct 2019 – Jul 2022",
       location: "Oxnard, CA",
       highlights: [
-        "Led full-stack delivery of client-facing web applications using ASP.NET Core, React, and Python — owning features from database schema and API contracts through responsive UI implementation.",
+        "Led full-stack delivery using ASP.NET Core, Java Spring Boot services, React, and Python — owning features from database schema and API contracts through responsive UI implementation.",
         "Architected reusable backend modules and frontend component libraries that cut feature delivery time across projects and established consistent patterns for authentication, data access, and error handling.",
         "Drove CI/CD modernization with Azure DevOps and GitHub Actions — automating build, test, and deployment pipelines to enable faster, safer releases with reduced manual overhead.",
         "Collaborated directly with clients and project managers as a senior technical point of contact — scoping requirements, estimating effort, and presenting trade-offs to non-technical stakeholders.",
@@ -162,7 +175,7 @@ export const portfolio = {
       period: "Aug 2017 – Sep 2019",
       location: "San Diego, CA",
       highlights: [
-        "Designed and built HIPAA-aware healthcare platform features in .NET and Python — delivering secure REST APIs, data integrations, and backend workflows used in live clinical and operational environments.",
+        "Designed and built HIPAA-aware healthcare platform features in .NET, Java, and Python — delivering secure REST APIs, data integrations, and backend workflows used in live clinical environments.",
         "Owned third-party system integrations (EHR, billing, and external data providers) — reducing manual data entry and improving data accuracy across connected services.",
         "Improved SQL Server performance through query optimization, indexing strategies, and stored procedure refactoring — resolving production bottlenecks and strengthening platform reliability.",
         "Contributed to sprint planning, technical documentation, and peer code reviews — helping the team maintain quality standards while shipping consistently in an agile delivery model.",
@@ -175,8 +188,8 @@ export const portfolio = {
       period: "Nov 2014 – Jul 2017",
       location: "Oxnard, CA",
       highlights: [
-        "Delivered production-ready features for multiple client projects in C#/.NET and Python — building REST APIs, business logic layers, and data access components from requirements through deployment.",
-        "Implemented automated unit and integration test coverage with NUnit and pytest — catching regressions early and improving confidence in releases for client deliverables.",
+        "Delivered production-ready features across C#/.NET, Java, and Python codebases — building REST APIs, business logic layers, and data access components from requirements through deployment.",
+        "Implemented automated unit and integration test coverage with NUnit, JUnit, and pytest — catching regressions early and improving release confidence.",
         "Built internal tooling and scripts in Python to streamline repetitive development and deployment tasks — saving engineering hours and reducing human error in release processes.",
         "Worked closely with senior engineers on code reviews and architectural decisions — rapidly developing full-stack fundamentals that formed the foundation for later senior-level roles.",
       ],
@@ -199,8 +212,8 @@ export const portfolio = {
       role: "Senior Software Engineer",
       period: "Aug 2022 – Present",
       description:
-        "Led architecture and delivery of an enterprise-grade AI document intelligence platform serving multiple Fortune 500 clients — combining LLM-powered extraction, classification, and validation with .NET 8 microservices and Python ML pipelines on Azure, processing millions of documents annually.",
-      stack: ["C#", ".NET 8", "Python", "FastAPI", "Azure OpenAI", "Azure", "Docker", "Redis", "SQL Server"],
+        "Led architecture and delivery of an enterprise AI document intelligence platform — combining LLM-powered extraction with .NET 8, Java Spring Boot, and Python FastAPI microservices on Azure, processing millions of documents annually.",
+      stack: ["C#", ".NET 8", "Java", "Spring Boot", "Python", "FastAPI", "Azure OpenAI", "Docker", "SQL Server"],
       outcomes: [
         "Architected the core AI ingestion pipeline adopted as IKONIC's standard document automation offering across 6+ enterprise client engagements.",
         "Reduced manual document review by 85% while maintaining 96%+ classification accuracy at production scale.",
@@ -214,7 +227,7 @@ export const portfolio = {
       responsibilities: [
         "End-to-end platform architecture and technical leadership",
         "LLM/ML pipeline design and Python FastAPI services",
-        ".NET orchestration, gRPC APIs, and Azure cloud infrastructure",
+        ".NET and Java microservices, gRPC APIs, and Azure infrastructure",
         "Team mentorship, client stakeholder management, and production SLAs",
       ],
     },
@@ -233,8 +246,8 @@ export const portfolio = {
       role: "Senior Software Engineer",
       period: "2023 – Present",
       description:
-        "Designed and built a generative AI workflow platform that automates complex business processes for enterprise clients — integrating Azure OpenAI, RAG-based knowledge retrieval, and intelligent routing through a scalable .NET and Python service mesh with full observability.",
-      stack: ["Python", "FastAPI", "C#", ".NET 8", "Azure OpenAI", "RAG", "Vector DB", "Docker", "Kubernetes"],
+        "Designed and built a generative AI workflow platform — integrating Azure OpenAI and RAG retrieval through a polyglot .NET, Java, and Python service mesh with full observability.",
+      stack: ["C#", ".NET 8", "Java", "Spring Boot", "Python", "FastAPI", "Azure OpenAI", "RAG", "Docker"],
       outcomes: [
         "Delivered a reusable GenAI framework that cut client workflow automation delivery time from months to weeks.",
         "Built RAG pipelines connecting client knowledge bases to LLM inference with sub-200ms retrieval latency.",
@@ -247,7 +260,7 @@ export const portfolio = {
       ],
       responsibilities: [
         "GenAI architecture, RAG pipeline design, and LLM integration",
-        "Platform engineering across Python ML and .NET API layers",
+        "Platform engineering across Python ML, .NET, and Java API layers",
         "MLOps, monitoring, and AI safety guardrails in production",
         "Senior technical lead for cross-functional delivery teams",
       ],
@@ -267,8 +280,8 @@ export const portfolio = {
       role: "Senior Full Stack Engineer",
       period: "2021 – 2022",
       description:
-        "Spearheaded development of an AI-enhanced analytics platform for a mid-market enterprise client — integrating Python predictive models with a React and ASP.NET Core full-stack application, delivering real-time forecasting, anomaly detection, and executive dashboards used by 500+ daily active users.",
-      stack: ["Python", "scikit-learn", "ASP.NET Core", "React", "TypeScript", "SignalR", "SQL Server", "Redis"],
+        "Spearheaded an AI-enhanced analytics platform — Python ML models with ASP.NET Core, Java Spring Boot APIs, and React dashboards serving 500+ daily active users.",
+      stack: ["C#", ".NET Core", "Java", "Spring Boot", "Python", "React", "SignalR", "SQL Server", "Redis"],
       outcomes: [
         "Shipped production ML models improving forecast accuracy to 91% and reducing inventory overstock by 34%.",
         "Built real-time SignalR dashboards giving executives live visibility into AI-generated business insights.",
@@ -280,7 +293,7 @@ export const portfolio = {
         { label: "ML Models Live", value: "4" },
       ],
       responsibilities: [
-        "Full-stack ownership: React UI, .NET APIs, Python ML services",
+        "Full-stack ownership: React UI, .NET and Java APIs, Python ML services",
         "Predictive model training, deployment, and inference serving",
         "Real-time dashboard architecture with SignalR and Redis caching",
         "Client-facing technical leadership and team mentorship",
@@ -302,7 +315,7 @@ export const portfolio = {
       period: "Oct 2019 – 2021",
       description:
         "Architected and led full-stack delivery of a large-scale multi-tenant SaaS administration platform — React and TypeScript front end with ASP.NET Core backend, serving 48 enterprise tenants with isolated data layers, automated provisioning, and role-based access control across 6 permission tiers.",
-      stack: ["ASP.NET Core", "React", "TypeScript", "Entity Framework", "SQL Server", "JWT", "Azure DevOps"],
+      stack: ["C#", "ASP.NET Core", "Java", "React", "TypeScript", "Entity Framework", "SQL Server", "JWT"],
       outcomes: [
         "Designed reusable auth, tenant-scoping, and provisioning modules adopted across 3 subsequent Binary Studio client projects.",
         "Reduced new tenant onboarding from 3 days to 2 hours through fully automated CI/CD provisioning pipelines.",
@@ -334,8 +347,8 @@ export const portfolio = {
       role: "Software Engineer",
       period: "Aug 2017 – Sep 2019",
       description:
-        "Built a HIPAA-compliant patient care management platform module used in live clinical environments — secure .NET microservices and Python data pipelines handling 12K+ PHI records with full audit logging, encryption-at-rest, and role-based access controls across San Diego healthcare operations.",
-      stack: [".NET", "C#", "Python", "Django REST", "SQL Server", "HIPAA", "REST APIs"],
+        "Built a HIPAA-compliant patient care platform — secure .NET and Java microservices with Python data pipelines handling 12K+ PHI records with full audit logging and encryption-at-rest.",
+      stack: ["C#", ".NET", "Java", "Spring Boot", "Python", "Django REST", "SQL Server", "HIPAA"],
       outcomes: [
         "Delivered production features used daily in clinical workflows with 100% compliance audit pass rate.",
         "Architected PHI data pipelines with encryption-at-rest and comprehensive access audit trails.",
@@ -347,7 +360,7 @@ export const portfolio = {
         { label: "Compliance", value: "100%" },
       ],
       responsibilities: [
-        "Secure .NET service development with PHI handling",
+        "Secure .NET and Java service development with PHI handling",
         "Python data pipeline and REST API implementation",
         "HIPAA audit logging and encryption-at-rest",
         "Compliance validation and production support",
@@ -367,8 +380,8 @@ export const portfolio = {
       role: "Software Engineer",
       period: "Aug 2017 – Sep 2019",
       description:
-        "Owned the enterprise integration layer connecting TATEEDA's healthcare platform to Epic EHR, billing providers, and lab data feeds — building bi-directional sync jobs, idempotent error recovery, and field mapping logic in .NET and Python processing 1,200+ sync jobs daily.",
-      stack: ["C#", ".NET", "Python", "REST APIs", "SQL Server", "Message Queues", "T-SQL"],
+        "Owned the enterprise integration layer for Epic EHR, billing, and lab feeds — bi-directional sync in .NET, Java, and Python processing 1,200+ jobs daily.",
+      stack: ["C#", ".NET", "Java", "Spring Boot", "Python", "REST APIs", "SQL Server", "Message Queues"],
       outcomes: [
         "Eliminated manual data re-entry across 3 external systems, saving clinical staff 15+ hours per week.",
         "Achieved 99.7% data accuracy through idempotent job design and comprehensive integration test suites.",
@@ -400,8 +413,8 @@ export const portfolio = {
       role: "Software Engineer",
       period: "Nov 2014 – Jul 2017",
       description:
-        "Delivered a full-scale warehouse management system for a logistics enterprise client — C#/.NET MVC application with real-time inventory tracking, purchase order workflows, barcode scanning integration, and SQL Server reporting serving 8 warehouse locations.",
-      stack: ["C#", ".NET MVC", "ASP.NET", "SQL Server", "JavaScript", "Bootstrap", "NUnit"],
+        "Delivered a warehouse management system — C#/.NET MVC and Java Spring Boot services with SQL Server reporting across 8 warehouse locations.",
+      stack: ["C#", ".NET MVC", "Java", "Spring Boot", "SQL Server", "REST APIs", "NUnit", "JUnit"],
       outcomes: [
         "Built end-to-end from requirements through production deployment across 8 warehouse locations.",
         "Reduced inventory discrepancies by 40% through automated reconciliation jobs and barcode-driven stock updates.",
@@ -413,7 +426,7 @@ export const portfolio = {
         { label: "Discrepancy Reduction", value: "40%" },
       ],
       responsibilities: [
-        "Full-stack .NET MVC development and SQL Server data layer",
+        "Full-stack .NET MVC and Java backend development with SQL Server data layer",
         "Inventory reconciliation logic and barcode integration",
         "Production deployment, client training, and handoff documentation",
         "Unit testing with NUnit and agile sprint delivery",
@@ -433,8 +446,8 @@ export const portfolio = {
       role: "Software Engineer",
       period: "Nov 2014 – Jul 2017",
       description:
-        "Developed a centralized business operations portal aggregating data from multiple client systems — .NET Web API backend with Python ETL pipelines generating automated PDF and Excel reports, replacing manual weekly reporting for 12 client accounts.",
-      stack: ["C#", ".NET Web API", "Python", "SQL Server", "REST APIs", "pytest", "IIS"],
+        "Developed a business operations portal — .NET and Java Web API backends with Python ETL pipelines, automating reports for 12 client accounts.",
+      stack: ["C#", ".NET Web API", "Java", "Spring Boot", "Python", "SQL Server", "REST APIs", "pytest"],
       outcomes: [
         "Automated weekly reporting for 12 client accounts, saving 20+ combined staff hours per week.",
         "Introduced pytest and NUnit testing standards adopted across subsequent Hexxen deliverables.",
@@ -446,7 +459,7 @@ export const portfolio = {
         { label: "Time Saved", value: "20+ hrs/wk" },
       ],
       responsibilities: [
-        ".NET Web API design and Python ETL pipeline development",
+        ".NET and Java Web API design with Python ETL pipeline development",
         "Automated report generation and scheduled job orchestration",
         "SQL Server data aggregation and stored procedure optimization",
         "Testing standards, documentation, and production support",
