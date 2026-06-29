@@ -40,10 +40,17 @@ npm run preview
 
 ## Deploy to GitHub Pages
 
-1. Create a repository named **`joserodriguez224.github.io`** on GitHub
-2. Push this project to the `main` branch
-3. Go to **Settings → Pages → Build and deployment** and select **GitHub Actions**
-4. Every push to `main` will automatically deploy the site
+**One-time setup on GitHub (required):**
+
+1. Open [github.com/JoseRodriguez224/joserodriguez224.github.io/settings/pages](https://github.com/JoseRodriguez224/joserodriguez224.github.io/settings/pages)
+2. Under **Build and deployment → Source**, select **GitHub Actions** (not "Deploy from a branch")
+3. Save — then push to `main` or re-run the workflow from the **Actions** tab
+
+After the workflow succeeds, the site is live at:
+
+**https://joserodriguez224.github.io**
+
+If deploy fails with `404`, GitHub Pages is not enabled yet — complete step 2 above.
 
 ## Project Structure
 
