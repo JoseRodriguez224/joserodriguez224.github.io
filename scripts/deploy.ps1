@@ -34,5 +34,5 @@ Write-Host "2. Check: https://github.com/JoseRodriguez224/joserodriguez224.githu
 Write-Host "3. Open: https://joserodriguez224.github.io"
 Write-Host "4. Hard refresh: Ctrl + Shift + R"
 Write-Host ""
-Write-Host "IMPORTANT: Never push to 'main' — that branch is auto-generated." -ForegroundColor Yellow
+Write-Host "IMPORTANT: Never push to 'main'. That branch is auto-generated." -ForegroundColor Yellow
 Write-Host ""
