@@ -12,8 +12,8 @@ export default function Projects() {
           <span className="section__label">Work</span>
           <h2 className="section__title">Selected projects</h2>
           <p className="projects__intro">
-            Representative deliverables from each stage of my career — click any project to
-            view details and a live preview.
+            Enterprise-scale deliverables across my career — AI and GenAI platforms from 2021
+            onward at IKONIC and Binary Studio. Click any project for details and live previews.
           </p>
         </div>
 
