@@ -4,14 +4,16 @@ Personal portfolio website for **Jose Rodriguez**, Senior Software Engineer.
 
 **Live site:** [joserodriguez224.github.io](https://joserodriguez224.github.io)
 
-## Branches
+## Branches (important)
 
 | Branch | Purpose |
 |--------|---------|
-| `source` | Source code — push here to deploy |
-| `main` | Built static site (auto-updated by GitHub Actions) |
+| **`source`** | Your code — always commit and push here |
+| **`main`** | Built website only — **do not push to this branch** |
 
-## Run Locally
+GitHub Pages serves the **`main`** branch automatically. GitHub Actions builds your code from **`source`** and updates **`main`** for you.
+
+## Run locally
 
 ```bash
 npm install
@@ -20,16 +22,34 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## Deploy
+## Deploy to github.io
 
-Push changes to the **`source`** branch. GitHub Actions builds the site and publishes it to **`main`**, which GitHub Pages serves automatically.
+**Always use the `source` branch:**
 
-```bash
+```powershell
 git checkout source
 git add .
 git commit -m "Update portfolio"
+npm run deploy
+```
+
+Or manually:
+
+```powershell
 git push origin source
 ```
+
+Then:
+
+1. Wait **1–2 minutes** for [GitHub Actions](https://github.com/JoseRodriguez224/joserodriguez224.github.io/actions) to finish (green checkmark)
+2. Open [joserodriguez224.github.io](https://joserodriguez224.github.io)
+3. **Hard refresh** your browser: **Ctrl + Shift + R**
+
+### Common mistakes
+
+- **Pushing to `main`** — this breaks the live site or skips the build step
+- **Not on `source` branch** — run `git checkout source` before committing
+- **Browser cache** — always hard refresh after deploy
 
 ## Links
 

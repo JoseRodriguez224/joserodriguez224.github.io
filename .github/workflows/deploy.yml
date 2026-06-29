@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
+        with:
+          ref: source
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -31,6 +33,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          test -f dist/index.html
+          test -d dist/assets
+          grep -q "/assets/" dist/index.html
+
       - name: Publish built site to main branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -38,3 +46,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: main
           force_orphan: true
+          commit_message: "deploy: ${{ github.sha }}"
