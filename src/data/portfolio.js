@@ -186,7 +186,13 @@ export const portfolio = {
   projects: [
     {
       id: "ikonic-portal",
-      previewType: "portal",
+      previewSlides: [
+        { id: "portal-dashboard", caption: "Dashboard overview" },
+        { id: "portal-api", caption: "API services panel" },
+        { id: "portal-integrations", caption: "Integrations hub" },
+        { id: "portal-monitoring", caption: "Live monitoring" },
+        { id: "portal-users", caption: "User management" },
+      ],
       title: "Enterprise Client Portal & API Platform",
       company: "IKONIC",
       role: "Senior Software Engineer",
@@ -212,7 +218,13 @@ export const portfolio = {
     },
     {
       id: "ikonic-ai-workflow",
-      previewType: "ai-workflow",
+      previewSlides: [
+        { id: "ai-pipeline", caption: "Workflow pipeline" },
+        { id: "ai-queue", caption: "Document queue" },
+        { id: "ai-review", caption: "AI validation review" },
+        { id: "ai-analytics", caption: "Processing analytics" },
+        { id: "ai-logs", caption: "Activity logs" },
+      ],
       title: "AI-Powered Workflow Automation Service",
       company: "IKONIC",
       role: "Senior Software Engineer",
@@ -238,7 +250,13 @@ export const portfolio = {
     },
     {
       id: "binary-saas",
-      previewType: "saas",
+      previewSlides: [
+        { id: "saas-tenants", caption: "Tenant management" },
+        { id: "saas-roles", caption: "Role-based access" },
+        { id: "saas-billing", caption: "Billing & plans" },
+        { id: "saas-audit", caption: "Audit trail" },
+        { id: "saas-onboarding", caption: "Tenant onboarding" },
+      ],
       title: "Multi-Tenant SaaS Admin Platform",
       company: "Binary Studio",
       role: "Senior Full Stack Engineer",
@@ -264,7 +282,13 @@ export const portfolio = {
     },
     {
       id: "binary-dashboard",
-      previewType: "dashboard",
+      previewSlides: [
+        { id: "dashboard-live", caption: "Live operations view" },
+        { id: "dashboard-orders", caption: "Order tracking" },
+        { id: "dashboard-alerts", caption: "Real-time alerts" },
+        { id: "dashboard-regions", caption: "Regional metrics" },
+        { id: "dashboard-reports", caption: "Report exports" },
+      ],
       title: "Real-Time Operations Dashboard",
       company: "Binary Studio",
       role: "Senior Full Stack Engineer",
@@ -290,7 +314,13 @@ export const portfolio = {
     },
     {
       id: "tateeda-patient",
-      previewType: "healthcare",
+      previewSlides: [
+        { id: "healthcare-patients", caption: "Patient registry" },
+        { id: "healthcare-careplan", caption: "Care plan details" },
+        { id: "healthcare-vitals", caption: "Vitals monitoring" },
+        { id: "healthcare-messages", caption: "Secure messaging" },
+        { id: "healthcare-audit", caption: "HIPAA audit log" },
+      ],
       title: "HIPAA-Compliant Patient Care Module",
       company: "TATEEDA",
       role: "Software Engineer",
@@ -316,7 +346,13 @@ export const portfolio = {
     },
     {
       id: "tateeda-ehr",
-      previewType: "integration",
+      previewSlides: [
+        { id: "integration-sync", caption: "Sync dashboard" },
+        { id: "integration-mapping", caption: "Field mapping" },
+        { id: "integration-errors", caption: "Error recovery" },
+        { id: "integration-schedule", caption: "Sync schedule" },
+        { id: "integration-history", caption: "Sync history" },
+      ],
       title: "EHR & Third-Party Integration Hub",
       company: "TATEEDA",
       role: "Software Engineer",
@@ -342,7 +378,13 @@ export const portfolio = {
     },
     {
       id: "hexxen-analytics",
-      previewType: "analytics",
+      previewSlides: [
+        { id: "analytics-forecast", caption: "Sales forecast chart" },
+        { id: "analytics-models", caption: "ML models" },
+        { id: "analytics-regions", caption: "Regional breakdown" },
+        { id: "analytics-inventory", caption: "Inventory levels" },
+        { id: "analytics-reports", caption: "Report downloads" },
+      ],
       title: "Predictive Sales Analytics Engine",
       company: "Hexxen",
       role: "Software Engineer",
@@ -368,7 +410,13 @@ export const portfolio = {
     },
     {
       id: "hexxen-docs",
-      previewType: "classification",
+      previewSlides: [
+        { id: "classification-results", caption: "Classification results" },
+        { id: "classification-upload", caption: "Document upload" },
+        { id: "classification-rules", caption: "Routing rules" },
+        { id: "classification-queue", caption: "Processing queue" },
+        { id: "classification-stats", caption: "Accuracy stats" },
+      ],
       title: "Intelligent Document Classification System",
       company: "Hexxen",
       role: "Software Engineer",

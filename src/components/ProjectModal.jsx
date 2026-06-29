@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ProjectPreview from "./ProjectPreview";
+import ProjectCarousel from "./ProjectCarousel";
 
 export default function ProjectModal({ project, onClose }) {
   useEffect(() => {
@@ -76,7 +76,7 @@ export default function ProjectModal({ project, onClose }) {
 
           <div className="project-modal__preview">
             <span className="project-modal__preview-label">Live preview</span>
-            <ProjectPreview type={project.previewType} />
+            <ProjectCarousel slides={project.previewSlides} />
           </div>
         </div>
       </div>
