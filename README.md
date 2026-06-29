@@ -42,15 +42,16 @@ npm run preview
 
 **One-time setup on GitHub (required):**
 
-1. Open [github.com/JoseRodriguez224/joserodriguez224.github.io/settings/pages](https://github.com/JoseRodriguez224/joserodriguez224.github.io/settings/pages)
-2. Under **Build and deployment → Source**, select **GitHub Actions** (not "Deploy from a branch")
-3. Save — then push to `main` or re-run the workflow from the **Actions** tab
+1. Open [Settings → Pages](https://github.com/JoseRodriguez224/joserodriguez224.github.io/settings/pages)
+2. Under **Build and deployment → Source**, select **Deploy from a branch**
+3. Set **Branch** to **`gh-pages`** and folder **`/ (root)`**, then Save
+4. Push to `main` — the workflow builds the site and publishes the built files to `gh-pages`
 
-After the workflow succeeds, the site is live at:
+After the workflow succeeds (check the **Actions** tab), the site is live at:
 
 **https://joserodriguez224.github.io**
 
-If deploy fails with `404`, GitHub Pages is not enabled yet — complete step 2 above.
+> **Important:** Do not deploy from the `main` branch. That branch contains source code only. The built site is on `gh-pages`.
 
 ## Project Structure
 
