@@ -29,7 +29,7 @@ function StatGrid({ items }) {
 export const previewSlides = {
   "portal-dashboard": () => (
     <PreviewFrame url="portal.client-api.io/dashboard">
-      <div className="preview__body--split" style={{ display: "grid", gridTemplateColumns: "100px 1fr", padding: 0, margin: "-1rem" }}>
+      <div className="preview__body preview__body--split">
         <aside className="preview-sidebar">
           {["Overview", "API Services", "Integrations", "Documents"].map((item, i) => (
             <div key={item} className={`preview-sidebar__item ${i === 0 ? "preview-sidebar__item--active" : ""}`}>{item}</div>
