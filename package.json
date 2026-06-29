@@ -1,0 +1,40 @@
+{
+  "name": "joserodriguez224.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website for Jose Rodriguez — Senior Software Engineer",
+  "author": "Jose Rodriguez <joserodriguezlm2026@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://joserodriguez224.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joserodriguez224/joserodriguez224.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joserodriguez224/joserodriguez224.github.io/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "software-engineer",
+    "csharp",
+    "dotnet",
+    "python"
+  ],
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.21"
+  }
+}
